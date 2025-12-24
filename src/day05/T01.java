@@ -7,6 +7,7 @@ public class T01 {
                 for (int k=1; k <= 98;k++) {
                     if(k+i+j==100 && i*3+j*2+k/3.0==100) {
                         System.out.println(i+"\t"+j+"\t"+k);
+                        break;
                     }
                 }
             }
